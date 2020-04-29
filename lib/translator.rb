@@ -26,7 +26,7 @@ def get_japanese_emoticon(file, emoticon)
   end
 end
 
-get_japanese_emoticon("./lib/emoticons.yml", "(*^3^)")
+get_japanese_emoticon("./lib/emoticons.yml", ":*")
 
 
 def get_english_meaning
