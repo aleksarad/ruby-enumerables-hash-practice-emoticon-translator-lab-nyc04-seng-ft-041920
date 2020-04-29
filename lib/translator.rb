@@ -9,7 +9,7 @@ def load_library (file)
     # puts "#{emotion}, #{emoticon_arr[0]}, #{emoticon_arr[1]}"
       if emoticon_hash[emotion] == nil
       emoticon_hash[emotion] = {:english => emoticon_arr[0],
-      "japanese".to_sym => emoticon_arr[1]}
+      :japanese => emoticon_arr[1]}
       end
   end
   return emoticon_hash
