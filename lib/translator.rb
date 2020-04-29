@@ -24,7 +24,7 @@ def get_japanese_emoticon(file, emoticon)
       p emoticon_hash[emotion][:japanese]
     end
   end
-  return "Sorry that emoticon was not found"
+  p "Sorry that emoticon was not found"
 end
 
 get_japanese_emoticon("./lib/emoticons.yml", ":'(")
