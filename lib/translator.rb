@@ -22,8 +22,6 @@ def get_japanese_emoticon(file, emoticon)
   emoticon_hash.each do |emotion, eng_jap|
     if emoticon == emoticon_hash[emotion][:english]
       p emoticon_hash[emotion][:japanese]
-    else 
-      p "Sorry that emoticon was not found"
     end
   end
 end
